@@ -1,0 +1,14 @@
+<div
+    id="container"
+    class="container"
+    data-mouse-down-at="0"
+    data-prev-percentage="0"
+>
+    <ng-container *ngFor="let link of imagesLinks">
+        <img
+            class="image"
+            [draggable]="false"
+            [src]="link"
+        >
+    </ng-container>
+</div>

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 3vmin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+}
+
+.image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: right;
+  -webkit-user-select: none;
+}
