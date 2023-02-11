@@ -21,7 +21,9 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     const track = document.getElementById("container");
+
     if (track) {
+
       window.onmouseup = () => {
         track.dataset['mouseDownAt'] = "0";
         track.dataset['prevPercentage'] = this.percentageStorage;
